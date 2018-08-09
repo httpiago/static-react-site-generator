@@ -44,3 +44,8 @@ glob('pages/*/*.js', (err, files)  => {
       })
   })
 })
+
+// Copiar a pasta "public" para dentro da pasta "dist"
+require('copy-dir')('./public', './dist/public', (err) => {
+  if (err) console.log('Erro ao copiar pasta "public"', err)
+})

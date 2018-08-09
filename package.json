@@ -5,6 +5,7 @@
     "dev": "nodemon --watch pages --ext js --exec \"npm run build && npm run serve\""
   },
   "dependencies": {
+    "copy-dir": "^0.4.0",
     "fs-extra": "^7.0.0",
     "glob": "^7.1.2",
     "react": "^16.4.2",
